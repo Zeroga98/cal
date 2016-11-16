@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ajuste de Curvas</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+    <ion-pane>
+        <ion-header-bar class="bar-positive">
+            <h1 class="title">Regresion Lineal</h1>
+        </ion-header-bar>
+        <ion-content header-shrink scroll-event-interval="5">
+            <div>
+                <div class="item item-input-inset" onfocus="true">
+                    <label class="item item-input-wrapper" style=" border-radius:15px;background-color:#FFFFFF;height:47px; ">
+                        <input ng-model="totally" type="number">
+                    </label>
+                    <button class="button button-clear button-positive ion-ios-arrow-down" ng-click="popover.show($event)"> mas
+                    </button>
+                </div>
+            </div>
+            <div class="list">
+                <div class="item item-divider" ng-if="showInputDivider" ng-click="toggleInput()" style="text-align: center">
+                    Input
+                    <a class="ion-arrow-right-c" style="float:right"></a>
+                </div>
+                <a class="item" ng-if="showInput">
+               ΣX={{sux}}
+               <br>
+               ΣY={{suy}}
+               <br>
+               ΣXY={{sumxy}}
+               <br>
+               ΣX̣^²={{sumx2}}
+               <br>
+               ΣXy^²={{sumy2}}
+               <br>
+               B ={{fb}}
+               <br>
+               A= {{fa}}
+                <br> R={{reco}}
+
+                </a>
+
+            </div>
+            <div class="list">
+                <div class="item item-divider" ng-show="showGraphisDivider" ng-click="toggleGraphis()" style="text-align: center">
+                    Grafica
+                    <a class="ion-arrow-right-c" style="float:right"></a>
+                </div>
+                <div ng-show="showGraphis" id="container">Placeholder for chart</div>
+            </div>
+            </div>
+        </ion-content>
+    </ion-pane>
+</body>
+
+</html>

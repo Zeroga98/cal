@@ -1,0 +1,13 @@
+<div class=" item-input-inset" ng-repeat="dato in Datos track by $index">
+    <label class="item item-input-wrapper" style=" border-radius:15px;background-color:#FFFFFF;height:37px; ">
+        <input ng-model="Datosx[$index]" type="number" >
+    </label>
+    <label class="item item-input-wrapper" style=" border-radius:15px;background-color:#FFFFFF;height:37px; ">
+        <input ng-model="Datosy[$index]" type="number">
+    </label>
+</div>
+<div class="button-bar">
+  <a class="button" ng-click="addDatos()">añadir</a>
+  <a class="button" ng-click="regresionLineal()">Calcular</a>
+</div>
+
