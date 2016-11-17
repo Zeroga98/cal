@@ -1,4 +1,4 @@
-# calculadora Minimos Cuadrados
+# calculadora Minimos Cuadrados /n
 git clone https://github.com/Zeroga98/cal.git
 Instalar nodejs
 Instalar ionic npm install -g cordova ionic
