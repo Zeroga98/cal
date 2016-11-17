@@ -1,12 +1,12 @@
-# calculadora Minimos Cuadrados /n
-git clone https://github.com/Zeroga98/cal.git
-Instalar nodejs
-Instalar ionic npm install -g cordova ionic
-npm install
-Testear aplicacion en el navegador 
-ionic serve
-para compilar en plataforma android 
-necesario tener el sdk de android y adv tools
-ionic run android
+# calculadora Minimos Cuadrados
+git clone https://github.com/Zeroga98/cal.git <br />
+Instalar nodejs <br />
+Instalar ionic npm install -g cordova ionic <br />
+npm install <br />
+Testear aplicacion en el navegador  <br />
+ionic serve <br />
+para compilar en plataforma android  <br />
+necesario tener el sdk de android y adv tools <br />
+ionic run android <br />
     
 
